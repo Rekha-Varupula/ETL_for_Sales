@@ -7,7 +7,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 
 - Python 3.x
 - Apache Airflow
-- Docker
+- Docker(optional)
 - Pandas
 - SQLAlchemy
 - MySQL Server
