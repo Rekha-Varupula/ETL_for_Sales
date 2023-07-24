@@ -8,7 +8,7 @@ from transformation import transform_data
 from loading import load_data
 
 default_args = {
-    'owner': 'your_name',
+    'owner': 'Rekha',
     'depends_on_past': False,
     'start_date': datetime(2023, 7, 25),
     'retries': 1,
@@ -24,7 +24,7 @@ dag = DAG(
 
 # Task 1: Data Extraction
 def extract():
-    csv_file_path = '/path/to/your/csv/file.csv'
+    csv_file_path = 'C:/Users/Downloads/Sales.csv'
     return extract_data(csv_file_path)
 
 extract_task = PythonOperator(
