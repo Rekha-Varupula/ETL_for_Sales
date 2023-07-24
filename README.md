@@ -7,6 +7,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 
 - Python 3.x
 - Apache Airflow
+- Docker
 - Pandas
 - SQLAlchemy
 - MySQL Server
@@ -15,7 +16,9 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 
 1. Install Apache Airflow following the official documentation: [Apache Airflow Installation Guide](https://airflow.apache.org/docs/apache-airflow/stable/installation.html).
 
-2. Install required Python packages:
+2. Installed Apache Airflow with Docker, I haven't used Docker specifically.
+
+3.Install required Python packages:
 
 ```bash
 pip install pandas sqlalchemy
