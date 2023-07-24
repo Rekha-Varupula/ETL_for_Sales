@@ -78,3 +78,7 @@ sales-etl-pipeline/
 ## Contributing
 
 If you would like to contribute to this project or have any suggestions, feel free to submit a pull request or open an issue.
+
+## References
+
+Sales dataset: https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
