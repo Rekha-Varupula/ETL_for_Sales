@@ -18,7 +18,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 2. Install required Python packages:
 
 ```bash
-pip install pandas sqlalchemy 
+pip install pandas sqlalchemy
 ```
 
 3. Set up the MySQL database:
