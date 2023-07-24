@@ -2,7 +2,7 @@
 
 import pandas as pd
 def transform_data(df):
-    # Perform data cleaning and transformations here (if needed)
+    # Perform data cleaning and transformations here
     
     # Displays info of count of non-null rows for each column
     print("Display Non-null row count and data type for each column")
@@ -21,7 +21,7 @@ def transform_data(df):
 
     # Transform all the values of DATE column to DATE format
     df['ORDERDATE'] = pd.to_datetime(df['ORDERDATE'])
-    print("Transformed DATE column to a date format")
+    print("Transformed all the values of DATE column to date format")
     df.head(20)
 
     # To find any null values
