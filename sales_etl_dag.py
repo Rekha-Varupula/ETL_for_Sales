@@ -51,7 +51,7 @@ transform_task = PythonOperator(
 def load(**kwargs):
     ti = kwargs['ti']
     transformed_data = ti.xcom_pull(task_ids='transform_data')
-    db_connection_string = 'mysql://user3:salesdbpwd@localhost/salesdb'
+    db_connection_string = 'mysql://root:salesdbpassword@localhost@3306/salesdb'
     table_name = 'sales_data'
     load_data(transformed_data, db_connection_string, table_name)
 
